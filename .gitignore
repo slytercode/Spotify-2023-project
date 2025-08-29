@@ -1,0 +1,27 @@
+# --- Python / Env ---
+venv/
+.env
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+
+# --- IDE / OS junk ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Data (only minimal raw) ---
+data/raw/*.zip
+data/raw/*.parquet
+data/raw/*.pkl
+data/interim/
+data/processed/
+
+# --- Reports / Artifacts ---
+reports/immagini/*.png
+reports/immagini/*.jpg
+reports/*.html
+
+# --- Logs / Temp ---
+*.log
+.tmp/
